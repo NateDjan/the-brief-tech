@@ -2,7 +2,7 @@
 title: "Google Home Speaker : la première enceinte connectée pensée pour Gemini débarque à 99 $"
 description: "Google lance la Google Home Speaker, sa première enceinte intelligente en six ans, entièrement construite autour de l'IA Gemini. Conversations naturelles, son 360°, hub maison connectée : tout ce qu'il faut savoir."
 pubDate: 2026-06-19
-heroImage: "https://like-fuel-q6kg.pages.anrie.ai/4mbyf4/hero-google-home-speaker.jpg"
+heroImage: "https://harbor-match-vhzp.pages.anrie.ai/ns2say/hero-google-home-speaker.png"
 category: "tech"
 tags: ["Google", "Google Home", "Gemini", "enceinte connectée", "smart home", "intelligence artificielle", "assistant vocal"]
 author: "The Brief"
