@@ -2,7 +2,7 @@
 title: "SpaceX dévisse en bourse : la fièvre post-IPO retombe, l'action perd plus de 9%"
 description: "Une semaine après son introduction en bourse historique sur le Nasdaq, SpaceX voit son cours chuter de plus de 9% alors que l'euphorie des premiers jours s'évapore rapidement."
 pubDate: 2026-06-19
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1612010167108-3e6b327405f0?w=1200&auto=format&q=80"
 category: "business"
 tags: ["SpaceX", "bourse", "IPO", "Nasdaq", "Elon Musk", "action", "SPCX"]
 author: "The Brief"
