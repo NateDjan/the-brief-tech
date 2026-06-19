@@ -2,7 +2,7 @@
 title: "GPT-5.5 Instant : OpenAI déploie son nouveau modèle par défaut pour tous les utilisateurs de ChatGPT"
 description: "OpenAI a remplacé GPT-5.3 Instant par GPT-5.5 Instant comme modèle par défaut de ChatGPT pour tous les utilisateurs, avec 52,5% moins d'hallucinations et une personnalisation améliorée."
 pubDate: 2026-06-17
-heroImage: "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1620207418302-439b387441b0?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["openai", "gpt-5.5", "chatgpt", "modèle ia", "intelligence artificielle"]
 author: "The Brief"
