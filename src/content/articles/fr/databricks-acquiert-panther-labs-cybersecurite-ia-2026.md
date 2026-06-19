@@ -2,7 +2,7 @@
 title: "Databricks rachète Panther Labs pour s'imposer dans la cybersécurité par l'IA"
 description: "Databricks acquiert Panther Labs, startup de cybersécurité valorisée 1,4 milliard de dollars, pour créer le 'security lakehouse' de référence face à CrowdStrike et Splunk."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Databricks", "Panther Labs", "cybersécurité", "IA", "acquisition", "data analytics", "SIEM", "security lakehouse"]
 author: "The Brief"
