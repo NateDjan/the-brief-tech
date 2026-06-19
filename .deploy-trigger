@@ -1,0 +1,3 @@
+deploy pipeline probe
+last auto-deploy verification: 2026-06-19T15:05Z
+flushes pending hero-image refinement sweep (A->Z) and tests Netlify<-GitHub auto-deploy without manual intervention.
