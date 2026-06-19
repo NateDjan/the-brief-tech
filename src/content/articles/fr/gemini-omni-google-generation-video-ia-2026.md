@@ -2,7 +2,7 @@
 title: "Gemini Omni : Google lance un modèle IA capable de générer et d'éditer des vidéos depuis n'importe quelle entrée"
 description: "Google DeepMind lance Gemini Omni Flash, son premier modèle multimodal de génération vidéo combinant raisonnement et créativité visuelle."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["Gemini Omni", "Google DeepMind", "génération vidéo", "intelligence artificielle", "modèle multimodal"]
 author: "The Brief"
