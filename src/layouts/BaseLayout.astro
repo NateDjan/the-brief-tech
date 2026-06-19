@@ -1,0 +1,63 @@
+---
+import SEO from '@/components/SEO.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import CookieConsent from '@/components/CookieConsent.astro';
+import type { Locale } from '@/i18n/utils';
+import '@/styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+  image?: string;
+  type?: 'website' | 'article';
+  publishedTime?: string;
+  modifiedTime?: string;
+  author?: string;
+}
+
+const { title, description, locale, image, type, publishedTime, modifiedTime, author } = Astro.props;
+---
+
+<!doctype html>
+<html lang={locale}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link rel="alternate" hreflang="fr" href={`https://the-brief.tech/fr${Astro.url.pathname.replace(/^\/(fr|en)/, '')}`} />
+  <link rel="alternate" hreflang="en" href={`https://the-brief.tech/en${Astro.url.pathname.replace(/^\/(fr|en)/, '')}`} />
+  <SEO 
+    title={title} 
+    description={description} 
+    image={image}
+    type={type}
+    publishedTime={publishedTime}
+    modifiedTime={modifiedTime}
+    author={author}
+    locale={locale === 'fr' ? 'fr_FR' : 'en_US'}
+  />
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XG9NWX6JQV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XG9NWX6JQV');
+  </script>
+  
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4947224241575125" crossorigin="anonymous"></script>
+</head>
+<body>
+  <Header locale={locale} currentPath={Astro.url.pathname} />
+  <main>
+    <slot />
+  </main>
+  <Footer locale={locale} />
+  <CookieConsent locale={locale} />
+</body>
+</html>

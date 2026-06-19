@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "The Brief",
+    "description": "Votre briefing tech & IA quotidien. Actualités Apple, Google, OpenAI, Meta, crypto, investissement et business tech.",
+    "tagline": "Votre briefing tech & IA quotidien"
+  },
+  "nav": {
+    "home": "Accueil",
+    "tech": "Tech",
+    "ai": "Intelligence Artificielle",
+    "business": "Business & Finance",
+    "crypto": "Crypto",
+    "about": "À propos"
+  },
+  "home": {
+    "hero_title": "L'essentiel de la tech,",
+    "hero_title_accent": "chaque jour.",
+    "hero_subtitle": "Actualités tech, IA et business décryptées. Apple, Google, OpenAI, Meta — tout ce qui compte, en un briefing.",
+    "latest_articles": "Derniers articles",
+    "trending": "Tendances",
+    "read_more": "Lire la suite",
+    "load_more": "Charger plus d'articles",
+    "featured": "À la une",
+    "min_read": "min de lecture",
+    "newsletter_title": "Recevez le briefing par email",
+    "newsletter_subtitle": "Les actus tech qui comptent, chaque matin dans votre boîte mail.",
+    "newsletter_placeholder": "votre@email.com",
+    "newsletter_button": "S'abonner",
+    "newsletter_privacy": "Pas de spam. Désinscription en un clic."
+  },
+  "article": {
+    "published": "Publié le",
+    "updated": "Mis à jour le",
+    "share": "Partager",
+    "related": "Articles similaires",
+    "author": "Par",
+    "table_of_contents": "Sommaire"
+  },
+  "categories": {
+    "tech": "Tech",
+    "ai": "Intelligence Artificielle",
+    "business": "Business & Finance",
+    "crypto": "Crypto & Web3",
+    "startups": "Startups"
+  },
+  "footer": {
+    "about": "The Brief est votre source quotidienne d'actualités tech, IA et business. Des analyses claires et concises pour rester informé.",
+    "links": "Liens utiles",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact",
+    "copyright": "© 2025 The Brief. Tous droits réservés.",
+    "follow": "Suivez-nous"
+  }
+}

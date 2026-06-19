@@ -1,0 +1,77 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import AdBanner from '@/components/AdBanner.astro';
+import Newsletter from '@/components/Newsletter.astro';
+import { t } from '@/i18n/utils';
+import { getCollection } from 'astro:content';
+
+const locale = 'en';
+
+const articles = (await getCollection('articles', (entry) => {
+  return entry.data.lang === 'en' && !entry.data.draft;
+})).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const featured = articles.find(a => a.data.featured) || articles[0];
+const rest = articles.filter(a => a !== featured);
+---
+
+<BaseLayout 
+  title={t(locale, 'site.title')} 
+  description={t(locale, 'site.description')}
+  locale={locale}
+>
+  <section class="hero">
+    <div class="container">
+      <h1>
+        {t(locale, 'home.hero_title')}<br/>
+        <span class="hero-accent">{t(locale, 'home.hero_title_accent')}</span>
+      </h1>
+      <p>{t(locale, 'home.hero_subtitle')}</p>
+    </div>
+  </section>
+
+  <div class="container">
+    {featured && (
+      <a href={`/en/articles/${featured.id.replace(/^en\//, '')}`} class="featured-card">
+        <div class="article-card-image">
+          {featured.data.heroImage && <img src={featured.data.heroImage} alt={featured.data.title} />}
+        </div>
+        <div class="article-card-body">
+          <div class="article-card-meta">
+            <span class={`badge badge-${featured.data.category}`}>
+              {t(locale, 'home.featured')}
+            </span>
+          </div>
+          <h2>{featured.data.title}</h2>
+          <p style="font-size:1rem;">{featured.data.description}</p>
+          <span class="read-more">{t(locale, 'home.read_more')} →</span>
+        </div>
+      </a>
+    )}
+
+    <AdBanner format="horizontal" />
+
+    <div class="section-header">
+      <h2>{t(locale, 'home.latest_articles')}</h2>
+    </div>
+
+    <div class="grid grid-3">
+      {rest.map((article) => (
+        <ArticleCard
+          title={article.data.title}
+          description={article.data.description}
+          pubDate={article.data.pubDate}
+          category={article.data.category}
+          slug={article.id}
+          heroImage={article.data.heroImage}
+          readingTime={article.data.readingTime}
+          locale={locale}
+        />
+      ))}
+    </div>
+
+    <Newsletter locale={locale} />
+    <AdBanner format="rectangle" />
+  </div>
+</BaseLayout>

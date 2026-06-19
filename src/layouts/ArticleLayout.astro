@@ -1,0 +1,137 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import AdBanner from '@/components/AdBanner.astro';
+import Newsletter from '@/components/Newsletter.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import YouTubeEmbed from '@/components/YouTubeEmbed.astro';
+import { t, type Locale } from '@/i18n/utils';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  heroImage?: string;
+  category: string;
+  author: string;
+  locale: Locale;
+  readingTime?: number;
+  tags?: string[];
+  youtubeVideoId?: string;
+}
+
+const { title, description, pubDate, updatedDate, heroImage, category, author, locale, readingTime, tags, youtubeVideoId } = Astro.props;
+
+const dateFormatter = new Intl.DateTimeFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const categoryLabel = t(locale, `categories.${category}`);
+
+// Get related articles (same category, same language)
+const allArticles = await getCollection('articles', (entry) => {
+  return entry.data.lang === locale && 
+         entry.data.category === category && 
+         !entry.data.draft &&
+         entry.data.title !== title;
+});
+const relatedArticles = allArticles.slice(0, 3);
+---
+
+<BaseLayout 
+  title={title} 
+  description={description} 
+  locale={locale}
+  image={heroImage}
+  type="article"
+  publishedTime={pubDate.toISOString()}
+  modifiedTime={updatedDate?.toISOString()}
+  author={author}
+>
+  <article>
+    <div class="container">
+      <div class="article-header">
+        <span class={`badge badge-${category}`}>{categoryLabel}</span>
+        <h1>{title}</h1>
+        <div class="article-meta">
+          <span>{t(locale, 'article.author')} {author}</span>
+          <span>·</span>
+          <time datetime={pubDate.toISOString()}>
+            {t(locale, 'article.published')} {dateFormatter.format(pubDate)}
+          </time>
+          {readingTime && (
+            <>
+              <span>·</span>
+              <span>{readingTime} {t(locale, 'home.min_read')}</span>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
+
+    {heroImage && (
+      <div class="article-cover">
+        <img src={heroImage} alt={title} />
+      </div>
+    )}
+
+    <div class="article-content content-width">
+      <slot />
+
+      {/* YouTube video embed */}
+      {youtubeVideoId && (
+        <YouTubeEmbed videoId={youtubeVideoId} title={title} locale={locale} />
+      )}
+
+      <!-- Ad after article content -->
+      <AdBanner format="horizontal" />
+
+      <!-- Share buttons -->
+      <div style="margin-top: var(--space-2xl); padding-top: var(--space-xl); border-top: 1px solid var(--color-border);">
+        <h4>{t(locale, 'article.share')}</h4>
+        <div class="flex" style="gap: var(--space-md); margin-top: var(--space-md);">
+          <a href={`https://twitter.com/intent/tweet?url=${Astro.url.href}&text=${encodeURIComponent(title)}`} target="_blank" rel="noopener" style="color: var(--color-primary);">
+            Twitter/X
+          </a>
+          <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${Astro.url.href}`} target="_blank" rel="noopener" style="color: var(--color-primary);">
+            LinkedIn
+          </a>
+          <a href={`https://www.facebook.com/sharer/sharer.php?u=${Astro.url.href}`} target="_blank" rel="noopener" style="color: var(--color-primary);">
+            Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Newsletter CTA -->
+  <div class="container">
+    <Newsletter locale={locale} />
+  </div>
+
+  <!-- Related articles -->
+  {relatedArticles.length > 0 && (
+    <div class="container" style="padding-bottom: var(--space-3xl);">
+      <div class="section-header">
+        <h2>{t(locale, 'article.related')}</h2>
+      </div>
+      <div class="grid grid-3">
+        {relatedArticles.map((article) => (
+          <ArticleCard
+            title={article.data.title}
+            description={article.data.description}
+            pubDate={article.data.pubDate}
+            category={article.data.category}
+            slug={article.id}
+            heroImage={article.data.heroImage}
+            readingTime={article.data.readingTime}
+            locale={locale}
+          />
+        ))}
+      </div>
+    </div>
+  )}
+</BaseLayout>

@@ -1,0 +1,21 @@
+---
+interface Props {
+  slot?: string;
+  format?: 'horizontal' | 'rectangle' | 'vertical' | 'auto';
+  className?: string;
+}
+
+const { format = 'auto', className = '' } = Astro.props;
+
+const adClient = 'ca-pub-4947224241575125';
+---
+
+<div class={`ad-container ${className}`} data-ad-format={format}>
+  <ins class="adsbygoogle"
+    style="display:block"
+    data-ad-client={adClient}
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+  </ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>

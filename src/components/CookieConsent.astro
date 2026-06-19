@@ -1,0 +1,349 @@
+---
+import type { Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+
+const t = {
+  fr: {
+    title: '🍪 Cookies & confidentialité',
+    text: 'Nous utilisons des cookies pour analyser le trafic et afficher des publicités pertinentes. Vous pouvez accepter ou refuser.',
+    accept: 'Tout accepter',
+    reject: 'Refuser',
+    settings: 'Personnaliser',
+    analytics: 'Cookies analytiques',
+    analyticsDesc: 'Google Analytics — mesure d\'audience',
+    ads: 'Cookies publicitaires',
+    adsDesc: 'Google AdSense — publicités personnalisées',
+    save: 'Enregistrer mes choix',
+    policy: 'Politique de confidentialité',
+  },
+  en: {
+    title: '🍪 Cookies & Privacy',
+    text: 'We use cookies to analyze traffic and display relevant ads. You can accept or decline.',
+    accept: 'Accept all',
+    reject: 'Decline',
+    settings: 'Customize',
+    analytics: 'Analytics cookies',
+    analyticsDesc: 'Google Analytics — audience measurement',
+    ads: 'Advertising cookies',
+    adsDesc: 'Google AdSense — personalized ads',
+    save: 'Save my choices',
+    policy: 'Privacy policy',
+  },
+};
+
+const labels = t[locale] || t.fr;
+---
+
+<div id="cookie-banner" class="cookie-banner" role="dialog" aria-label={labels.title} style="display:none;">
+  <div class="cookie-banner-inner">
+    <div class="cookie-main">
+      <p class="cookie-title">{labels.title}</p>
+      <p class="cookie-text">{labels.text}</p>
+      <div class="cookie-buttons">
+        <button id="cookie-accept" class="cookie-btn cookie-btn-accept">{labels.accept}</button>
+        <button id="cookie-reject" class="cookie-btn cookie-btn-reject">{labels.reject}</button>
+        <button id="cookie-settings-toggle" class="cookie-btn cookie-btn-settings">{labels.settings}</button>
+      </div>
+    </div>
+    <div id="cookie-settings" class="cookie-settings" style="display:none;">
+      <div class="cookie-option">
+        <label class="cookie-switch">
+          <input type="checkbox" id="cookie-analytics" checked />
+          <span class="cookie-slider"></span>
+        </label>
+        <div>
+          <strong>{labels.analytics}</strong>
+          <small>{labels.analyticsDesc}</small>
+        </div>
+      </div>
+      <div class="cookie-option">
+        <label class="cookie-switch">
+          <input type="checkbox" id="cookie-ads" checked />
+          <span class="cookie-slider"></span>
+        </label>
+        <div>
+          <strong>{labels.ads}</strong>
+          <small>{labels.adsDesc}</small>
+        </div>
+      </div>
+      <button id="cookie-save" class="cookie-btn cookie-btn-accept">{labels.save}</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.25rem 1.5rem;
+    animation: slideUp 0.4s ease-out;
+  }
+
+  @keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  .cookie-banner-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .cookie-main {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .cookie-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .cookie-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .cookie-buttons {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  .cookie-btn {
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .cookie-btn-accept {
+    background: var(--accent, #6366f1);
+    color: #fff;
+  }
+
+  .cookie-btn-accept:hover {
+    background: var(--accent-hover, #4f46e5);
+    transform: translateY(-1px);
+  }
+
+  .cookie-btn-reject {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+  }
+
+  .cookie-btn-reject:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+
+  .cookie-btn-settings {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    padding: 0.6rem 0.5rem;
+  }
+
+  .cookie-btn-settings:hover {
+    color: #fff;
+  }
+
+  .cookie-settings {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .cookie-option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #fff;
+  }
+
+  .cookie-option strong {
+    display: block;
+    font-size: 0.85rem;
+  }
+
+  .cookie-option small {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.75rem;
+  }
+
+  /* Toggle switch */
+  .cookie-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+
+  .cookie-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .cookie-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    transition: 0.3s;
+  }
+
+  .cookie-slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .cookie-switch input:checked + .cookie-slider {
+    background: var(--accent, #6366f1);
+  }
+
+  .cookie-switch input:checked + .cookie-slider::before {
+    transform: translateX(20px);
+  }
+
+  @media (max-width: 768px) {
+    .cookie-main {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    .cookie-buttons {
+      width: 100%;
+    }
+    .cookie-btn-accept,
+    .cookie-btn-reject {
+      flex: 1;
+    }
+    .cookie-settings {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
+
+<script is:inline>
+  // Google Consent Mode v2 — default to denied
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+
+  // Set defaults BEFORE gtag loads
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    'functionality_storage': 'granted',
+    'security_storage': 'granted',
+    'wait_for_update': 500
+  });
+
+  (function() {
+    var COOKIE_NAME = 'tb_consent';
+    var banner = document.getElementById('cookie-banner');
+
+    function getConsent() {
+      try {
+        var c = document.cookie.match('(^|;)\\s*' + COOKIE_NAME + '=([^;]+)');
+        return c ? JSON.parse(decodeURIComponent(c[2])) : null;
+      } catch(e) { return null; }
+    }
+
+    function setConsent(analytics, ads) {
+      var val = JSON.stringify({ analytics: analytics, ads: ads });
+      var d = new Date();
+      d.setFullYear(d.getFullYear() + 1);
+      document.cookie = COOKIE_NAME + '=' + encodeURIComponent(val) + ';path=/;expires=' + d.toUTCString() + ';SameSite=Lax';
+
+      // Update Google Consent Mode
+      gtag('consent', 'update', {
+        'analytics_storage': analytics ? 'granted' : 'denied',
+        'ad_storage': ads ? 'granted' : 'denied',
+        'ad_user_data': ads ? 'granted' : 'denied',
+        'ad_personalization': ads ? 'granted' : 'denied'
+      });
+
+      banner.style.display = 'none';
+    }
+
+    // Check existing consent
+    var existing = getConsent();
+    if (existing) {
+      // Apply saved consent silently
+      gtag('consent', 'update', {
+        'analytics_storage': existing.analytics ? 'granted' : 'denied',
+        'ad_storage': existing.ads ? 'granted' : 'denied',
+        'ad_user_data': existing.ads ? 'granted' : 'denied',
+        'ad_personalization': existing.ads ? 'granted' : 'denied'
+      });
+    } else {
+      // Show banner
+      banner.style.display = 'block';
+    }
+
+    // Accept all
+    document.getElementById('cookie-accept').addEventListener('click', function() {
+      setConsent(true, true);
+    });
+
+    // Reject all
+    document.getElementById('cookie-reject').addEventListener('click', function() {
+      setConsent(false, false);
+    });
+
+    // Toggle settings panel
+    document.getElementById('cookie-settings-toggle').addEventListener('click', function() {
+      var s = document.getElementById('cookie-settings');
+      s.style.display = s.style.display === 'none' ? 'flex' : 'none';
+    });
+
+    // Save custom choices
+    document.getElementById('cookie-save').addEventListener('click', function() {
+      var analytics = document.getElementById('cookie-analytics').checked;
+      var ads = document.getElementById('cookie-ads').checked;
+      setConsent(analytics, ads);
+    });
+  })();
+</script>

@@ -1,0 +1,37 @@
+---
+import { t, type Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+
+<section class="newsletter">
+  <h2>{t(locale, 'home.newsletter_title')}</h2>
+  <p>{t(locale, 'home.newsletter_subtitle')}</p>
+  <form class="newsletter-form" id="newsletter-form">
+    <input 
+      type="email" 
+      name="email"
+      placeholder={t(locale, 'home.newsletter_placeholder')}
+      required 
+      aria-label="Email"
+    />
+    <button type="submit">{t(locale, 'home.newsletter_button')}</button>
+  </form>
+  <p class="newsletter-privacy">{t(locale, 'home.newsletter_privacy')}</p>
+</section>
+
+<script>
+  const form = document.getElementById('newsletter-form');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const formData = new FormData(form as HTMLFormElement);
+    const email = formData.get('email');
+    // TODO: Connect to your email service (Mailchimp, ConvertKit, etc.)
+    alert(`Merci ! ${email} a été ajouté à la liste. 🎉`);
+    (form as HTMLFormElement).reset();
+  });
+</script>

@@ -1,0 +1,50 @@
+---
+import { t, getLocalizedPath, type Locale } from '@/i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  category: string;
+  slug: string;
+  heroImage?: string;
+  readingTime?: number;
+  locale: Locale;
+}
+
+const { title, description, pubDate, category, slug, heroImage, readingTime, locale } = Astro.props;
+
+const dateFormatter = new Intl.DateTimeFormat(locale === 'fr' ? 'fr-FR' : 'en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Strip locale prefix from slug if present (e.g. 'fr/my-article' -> 'my-article')
+const cleanSlug = slug.replace(/^(fr|en)\//, '');
+const articleUrl = getLocalizedPath(`/articles/${cleanSlug}`, locale);
+const categoryLabel = t(locale, `categories.${category}`);
+---
+
+<article class="article-card animate-in">
+  {heroImage && (
+    <a href={articleUrl} class="article-card-image">
+      <img src={heroImage} alt={title} loading="lazy" />
+    </a>
+  )}
+  <div class="article-card-body">
+    <div class="article-card-meta">
+      <span class={`badge badge-${category}`}>{categoryLabel}</span>
+      <span>·</span>
+      <time datetime={pubDate.toISOString()}>{dateFormatter.format(pubDate)}</time>
+    </div>
+    <h3><a href={articleUrl}>{title}</a></h3>
+    <p>{description}</p>
+    <div class="article-card-footer">
+      {readingTime && <span>{readingTime} {t(locale, 'home.min_read')}</span>}
+      <a href={articleUrl} class="read-more">
+        {t(locale, 'home.read_more')} →
+      </a>
+    </div>
+  </div>
+</article>

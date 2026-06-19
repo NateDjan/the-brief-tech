@@ -1,0 +1,55 @@
+{
+  "site": {
+    "title": "The Brief",
+    "description": "Your daily tech & AI briefing. News on Apple, Google, OpenAI, Meta, crypto, investment and tech business.",
+    "tagline": "Your daily tech & AI briefing"
+  },
+  "nav": {
+    "home": "Home",
+    "tech": "Tech",
+    "ai": "Artificial Intelligence",
+    "business": "Business & Finance",
+    "crypto": "Crypto",
+    "about": "About"
+  },
+  "home": {
+    "hero_title": "Tech essentials,",
+    "hero_title_accent": "every day.",
+    "hero_subtitle": "Tech, AI and business news decoded. Apple, Google, OpenAI, Meta — everything that matters, in one briefing.",
+    "latest_articles": "Latest articles",
+    "trending": "Trending",
+    "read_more": "Read more",
+    "load_more": "Load more articles",
+    "featured": "Featured",
+    "min_read": "min read",
+    "newsletter_title": "Get the briefing by email",
+    "newsletter_subtitle": "The tech news that matters, every morning in your inbox.",
+    "newsletter_placeholder": "your@email.com",
+    "newsletter_button": "Subscribe",
+    "newsletter_privacy": "No spam. Unsubscribe in one click."
+  },
+  "article": {
+    "published": "Published on",
+    "updated": "Updated on",
+    "share": "Share",
+    "related": "Related articles",
+    "author": "By",
+    "table_of_contents": "Table of Contents"
+  },
+  "categories": {
+    "tech": "Tech",
+    "ai": "Artificial Intelligence",
+    "business": "Business & Finance",
+    "crypto": "Crypto & Web3",
+    "startups": "Startups"
+  },
+  "footer": {
+    "about": "The Brief is your daily source for tech, AI and business news. Clear and concise analysis to keep you informed.",
+    "links": "Useful links",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "contact": "Contact",
+    "copyright": "© 2025 The Brief. All rights reserved.",
+    "follow": "Follow us"
+  }
+}
