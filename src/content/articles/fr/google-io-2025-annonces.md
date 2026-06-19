@@ -2,7 +2,7 @@
 title: "Google I/O 2025 : les 10 annonces qui changent tout"
 description: "Résumé complet de la Google I/O 2025 : Gemini 2.5, Android 16, Project Astra, NotebookLM et toutes les annonces majeures. Le récap en 10 points."
 pubDate: 2026-05-21
-heroImage: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["google", "google io", "android", "gemini", "ia"]
 author: "The Brief"
