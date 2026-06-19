@@ -2,7 +2,7 @@
 title: "Foxconn, Bull et Nvidia à VivaTech : la France veut devenir le hub des usines d'IA européennes"
 description: "À VivaTech 2026, Foxconn et Bull annoncent la production en France du superordinateur Nvidia Vera Rubin NVL72. Paris s'impose comme capitale de l'IA souveraine en Europe."
 pubDate: 2026-06-19
-heroImage: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Foxconn", "Bull", "Nvidia", "VivaTech", "IA souveraine", "usines IA", "France", "Vera Rubin"]
 author: "The Brief"
