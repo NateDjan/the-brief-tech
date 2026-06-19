@@ -2,7 +2,7 @@
 title: "Bitcoin à 63 000$ : correction saine ou signal d'alarme ? L'analyse du marché crypto juin 2026"
 description: "Bitcoin consolide autour de 63 000$ mi-juin 2026, soit -50% de son ATH à 126 279$. Analyse des raisons de la baisse et des positions institutionnelles contradictoires."
 pubDate: 2026-06-13
-heroImage: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=1200&auto=format&q=80"
 category: "crypto"
 tags: ["bitcoin", "crypto", "marché", "ETF", "analyse", "correction", "store of value", "institutionnel"]
 author: "The Brief"

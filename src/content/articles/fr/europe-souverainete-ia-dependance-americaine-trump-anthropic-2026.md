@@ -2,7 +2,7 @@
 title: "Souveraineté IA : pourquoi l'Europe doit s'affranchir de sa dépendance aux modèles américains"
 description: "La suspension d'Anthropic Mythos 5 par Trump révèle la fragilité de l'Europe face aux décisions unilatérales américaines sur l'IA. Analyse d'un risque stratégique majeur."
 pubDate: 2026-06-18
-heroImage: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["souveraineté IA", "Europe", "Anthropic", "Trump", "régulation", "dépendance technologique", "AI Act"]
 author: "The Brief"

@@ -2,7 +2,7 @@
 title: "ICEYE lève 1 milliard d'euros : le satellite-espion finlandais qui vaut 10 milliards"
 description: "ICEYE lève 450 millions d'euros auprès de General Atlantic à une valorisation de 10 milliards. L'intelligence souveraine depuis l'espace devient un enjeu clé."
 pubDate: 2026-06-15
-heroImage: "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=1200&auto=format&q=80"
 category: "business"
 tags: ["ICEYE", "satellite", "levée de fonds", "General Atlantic", "défense", "espace"]
 author: "The Brief"

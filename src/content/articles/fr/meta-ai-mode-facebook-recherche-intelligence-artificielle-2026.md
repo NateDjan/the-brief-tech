@@ -2,7 +2,7 @@
 title: "Meta lance l'IA Mode sur Facebook : la recherche conversationnelle s'invite dans votre fil d'actualité"
 description: "Facebook déploie AI Mode, un nouveau moteur de recherche conversationnel alimenté par Meta AI (Muse Spark), capable de synthétiser les discussions publiques en réponses contextuelles."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Meta", "Facebook", "AI Mode", "Muse Spark", "intelligence artificielle", "recherche IA", "réseau social", "Mark Zuckerberg"]
 author: "The Brief"

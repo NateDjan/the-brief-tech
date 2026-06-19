@@ -2,7 +2,7 @@
 title: "Apple Foundation Models 3 : cinq modèles IA dont un géant multimodal de 20 milliards de paramètres"
 description: "Apple dévoile AFM 3, une famille de cinq modèles IA développés avec Google, incluant un modèle on-device de 20Mds de paramètres. Siri propulsé vers une nouvelle ère."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1542744094-24638eff58bb?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Apple", "Apple Intelligence", "AFM 3", "Siri", "modèles IA", "multimodal", "Private Cloud Compute"]
 author: "The Brief"

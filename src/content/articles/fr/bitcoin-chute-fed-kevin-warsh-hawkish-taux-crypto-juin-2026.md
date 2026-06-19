@@ -2,7 +2,7 @@
 title: "Bitcoin chute sous $64K : Kevin Warsh et la Fed en mode hawkish font trembler les crypto"
 description: "La Fed maintient ses taux à 3,75% mais durcit son ton. Kevin Warsh provoque une chute de 3% du Bitcoin qui se stabilise autour de $64 000."
 pubDate: 2026-06-18
-heroImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1622790698141-94e30457ef12?w=1200&auto=format&q=80"
 category: "crypto"
 tags: ["Bitcoin", "Federal Reserve", "Kevin Warsh", "crypto", "FOMC", "taux d'intérêt"]
 author: "The Brief"

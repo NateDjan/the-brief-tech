@@ -2,7 +2,7 @@
 title: "Binance risque d'être banni de l'UE : le rejet de la licence MiCA menace 150 millions d'utilisateurs européens"
 description: "La Grèce s'apprête à rejeter la demande de licence MiCA de Binance. Sans autorisation, le plus grand exchange crypto mondial ne pourra plus opérer en Europe dès juillet 2026."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1609554496796-c345a5335ceb?w=1200&auto=format&q=80"
 category: "crypto"
 tags: ["Binance", "MiCA", "Union Européenne", "crypto régulation", "CASP", "Grèce", "HCMC", "exchange crypto"]
 author: "The Brief"

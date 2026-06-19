@@ -2,7 +2,7 @@
 title: "OVHcloud rachète Gladia : la French Tech consolide son avance dans l'IA vocale souveraine"
 description: "OVH Groupe entre en négociations exclusives pour acquérir Gladia, startup parisienne d'IA speech-to-text soutenant 300 000 développeurs et 2 000 clients entreprises."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1589903308904-1010c2294adc?w=1200&auto=format&q=80"
 category: "startups"
 tags: ["OVHcloud", "Gladia", "IA vocale", "speech-to-text", "acquisition", "French Tech", "cloud souverain", "startup française"]
 author: "The Brief"

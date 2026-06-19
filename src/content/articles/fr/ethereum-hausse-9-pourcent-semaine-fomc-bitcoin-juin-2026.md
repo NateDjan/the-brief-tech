@@ -2,7 +2,7 @@
 title: "Ethereum +9% sur la semaine : le marché crypto retrouve des couleurs malgré la prudence du FOMC"
 description: "Ethereum s'affiche à 1 765$ ce 17 juin 2026, en hausse de 9,3% sur sept jours. Bitcoin progresse de 6,4% à 64 600$. Analyse des facteurs macroéconomiques et catalyseurs de cette reprise."
 pubDate: 2026-06-17
-heroImage: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1643101809204-6fb869816dbe?w=1200&auto=format&q=80"
 category: "crypto"
 tags: ["ethereum", "bitcoin", "ETH", "BTC", "FOMC", "Fed", "crypto", "marché", "macroéconomie", "prix"]
 author: "The Brief"

@@ -2,7 +2,7 @@
 title: "L'IA va-t-elle remplacer votre métier ? L'analyse par secteur"
 description: "Analyse factuelle de l'impact de l'IA sur l'emploi en 2026, secteur par secteur. Quels métiers sont menacés, lesquels sont renforcés, et comment s'adapter."
 pubDate: 2026-04-03
-heroImage: "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["ia", "emploi", "avenir du travail", "automatisation", "formation"]
 author: "The Brief"

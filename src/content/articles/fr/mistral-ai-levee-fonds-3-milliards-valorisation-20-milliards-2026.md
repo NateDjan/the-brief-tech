@@ -2,7 +2,7 @@
 title: "Mistral AI vise une levée de 3 milliards d'euros à une valorisation record de 20 milliards"
 description: "La pépite française de l'IA, Mistral AI, serait en négociations pour lever 3 milliards d'euros à une valorisation de 20 milliards — presque le double de son évaluation actuelle."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=1200&auto=format&q=80"
 category: "startups"
 tags: ["Mistral AI", "levée de fonds", "French Tech", "IA", "valorisation", "Bloomberg"]
 author: "The Brief"

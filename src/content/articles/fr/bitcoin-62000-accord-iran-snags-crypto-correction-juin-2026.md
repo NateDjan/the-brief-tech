@@ -2,7 +2,7 @@
 title: "Bitcoin recule à 62 000 $ : l'accord Iran-USA bute sur des obstacles, les cryptos corrigent"
 description: "Bitcoin plonge à 62 000 $ le 19 juin 2026 alors que la mise en œuvre de l'accord de paix USA-Iran rencontre des frictions diplomatiques. Analyse de la correction crypto."
 pubDate: 2026-06-19
-heroImage: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1625806786037-2af608423424?w=1200&auto=format&q=80"
 category: "crypto"
 tags: ["Bitcoin", "crypto", "Iran", "accord de paix", "BTC", "correction", "marché"]
 author: "The Brief"

@@ -2,7 +2,7 @@
 title: "Google Cloud dépasse 20 milliards de dollars : les Big Tech misent 725 milliards sur l'IA en 2026"
 description: "Google Cloud bondit de 63% au T1 2026, franchissant les 20Mds$. Avec Meta, Amazon et Microsoft, les géants tech dépensent 725 milliards en capex IA cette année."
 pubDate: 2026-06-12
-heroImage: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1560472355-536de3962603?w=1200&auto=format&q=80"
 category: "business"
 tags: ["Google", "Alphabet", "cloud", "IA", "Big Tech", "résultats financiers", "capex"]
 author: "The Brief"

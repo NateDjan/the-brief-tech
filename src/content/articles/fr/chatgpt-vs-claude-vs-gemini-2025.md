@@ -2,7 +2,7 @@
 title: "ChatGPT vs Claude vs Gemini : quel chatbot IA choisir en 2026 ?"
 description: "Comparatif complet des meilleurs chatbots IA en 2026. ChatGPT, Claude et Gemini testés sur la rédaction, le code, l'analyse et la créativité. Guide pour choisir le meilleur outil."
 pubDate: 2026-06-10
-heroImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1655720031554-a929595ffad7?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["chatgpt", "claude", "gemini", "comparatif", "ia"]
 author: "The Brief"

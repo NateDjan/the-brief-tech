@@ -2,7 +2,7 @@
 title: "AMD-Meta : le deal à 100 milliards de dollars qui brise le monopole NVIDIA sur les GPU IA"
 description: "Meta et AMD ont signé l'accord GPU le plus massif de l'histoire : 6 gigawatts d'Instinct MI450 sur plusieurs années, potentiellement valorisé à 100 milliards de dollars."
 pubDate: 2026-06-18
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1625314897518-bb4fe6e95229?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["AMD", "Meta", "GPU", "NVIDIA", "Instinct MI450", "intelligence artificielle", "data center", "puces IA"]
 author: "The Brief"

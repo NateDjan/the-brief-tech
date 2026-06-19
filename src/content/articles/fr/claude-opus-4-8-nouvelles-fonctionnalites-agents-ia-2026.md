@@ -2,7 +2,7 @@
 title: "Claude Opus 4.8 : Anthropic révolutionne les agents IA avec son modèle le plus puissant"
 description: "Anthropic lance Claude Opus 4.8 avec 1 million de tokens de contexte, des workflows dynamiques et un mode rapide 3x moins cher. Le modèle bat GPT-5.5 sur tous les benchmarks agentiques."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["Claude Opus 4.8", "Anthropic", "agents IA", "intelligence artificielle", "LLM"]
 author: "The Brief"

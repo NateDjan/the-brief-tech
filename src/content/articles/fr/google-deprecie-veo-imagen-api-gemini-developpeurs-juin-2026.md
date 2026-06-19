@@ -2,7 +2,7 @@
 title: "Google déprécie Veo 2/3 et Imagen 4 : les développeurs ont jusqu'au 30 juin pour migrer"
 description: "Google a annoncé la dépréciation urgente de ses modèles Veo 2/3 et Imagen 4 via l'API Gemini. Les développeurs doivent migrer avant le 30 juin 2026 sous peine d'interruption de service."
 pubDate: 2026-06-17
-heroImage: "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Google", "Gemini API", "Veo", "Imagen", "dépréciation", "développeurs", "IA générative", "migration"]
 author: "The Brief"

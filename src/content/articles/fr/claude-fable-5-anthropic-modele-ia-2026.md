@@ -2,7 +2,7 @@
 title: "Claude Fable 5 : Anthropic lance son modèle le plus puissant — et réinvente la sécurité de l'IA"
 description: "Anthropic a dévoilé Claude Fable 5 le 9 juin 2026, son modèle IA le plus avancé, avec une version sécurisée pour la cyberdéfense. Tout ce qu'il faut savoir."
 pubDate: 2026-06-11
-heroImage: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1676299081847-824916de030a?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["Anthropic", "Claude", "Claude Fable 5", "modèle IA", "LLM", "intelligence artificielle"]
 author: "The Brief"

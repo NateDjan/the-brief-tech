@@ -2,7 +2,7 @@
 title: "Gemini 3.5 Pro : Google s'apprête à lancer son modèle le plus puissant en juin 2026"
 description: "Google confirme le lancement de Gemini 3.5 Pro pour juin 2026 avec 2 millions de tokens de contexte et le raisonnement Deep Think. Le nouveau flagship qui veut détrôner Claude et GPT."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1612599316791-451087c7fe15?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["Gemini 3.5 Pro", "Google", "intelligence artificielle", "LLM", "modèle IA"]
 author: "The Brief"

@@ -2,7 +2,7 @@
 title: "Google forcé par le CMA : les éditeurs britanniques peuvent désormais refuser les AI Overviews"
 description: "En première mondiale, la CMA impose à Google de laisser les éditeurs choisir si leur contenu alimente les résumés IA. Une décision qui pourrait remodeler le SEO mondial."
 pubDate: 2026-06-18
-heroImage: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1510511459019-5dda7724fd87?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Google", "AI Overviews", "CMA", "éditeurs", "droits voisins", "SEO", "régulation", "Royaume-Uni"]
 author: "The Brief"
