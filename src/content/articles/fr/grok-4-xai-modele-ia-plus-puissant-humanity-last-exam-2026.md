@@ -2,7 +2,7 @@
 title: "Grok 4 : xAI lance le modèle d'IA le plus puissant du monde selon les benchmarks"
 description: "xAI d'Elon Musk dévoile Grok 4 et Grok 4 Heavy, qui domine tous les benchmarks — premier modèle à dépasser 50% sur Humanity's Last Exam. Analyse complète."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["Grok 4", "xAI", "Elon Musk", "LLM", "benchmark", "Humanity's Last Exam", "modèle IA"]
 author: "The Brief"
