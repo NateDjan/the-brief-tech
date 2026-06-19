@@ -2,7 +2,7 @@
 title: "Microsoft lance 7 nouveaux modèles MAI : la riposte contre OpenAI et Anthropic"
 description: "Microsoft Build 2026 : découvrez MAI-Code-1-Flash, MAI-Thinking-1 et 5 autres modèles IA qui repositionnent Microsoft dans la course à l'intelligence artificielle."
 pubDate: 2026-06-10
-heroImage: "https://images.unsplash.com/photo-1649180556628-9ba704115795?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1593376853899-fbb47a057fa0?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["Microsoft", "intelligence artificielle", "MAI", "GitHub Copilot", "Build 2026", "modèles IA"]
 author: "The Brief"
