@@ -2,7 +2,7 @@
 title: "Neura Robotics lève 1,4 milliard de dollars : Nvidia et Amazon misent sur les robots humanoïdes allemands"
 description: "La startup allemande Neura Robotics réalise une levée record de 1,4 milliard de dollars en Série C avec Nvidia, Amazon, Bosch et la Banque européenne d'investissement."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=1200&auto=format&q=80"
 category: "startups"
 tags: ["Neura Robotics", "robotique humanoïde", "Nvidia", "Amazon", "levée de fonds", "IA physique", "Series C"]
 author: "The Brief"
