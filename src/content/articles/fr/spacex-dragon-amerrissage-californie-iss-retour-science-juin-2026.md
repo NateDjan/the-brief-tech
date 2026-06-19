@@ -2,7 +2,7 @@
 title: "SpaceX Dragon : amerrissage réussi au large de la Californie après un retour record de la Station spatiale internationale"
 description: "La capsule Dragon de SpaceX a splasheddown au large de la Californie le 17 juin 2026 après son désamarrage de l'ISS, rapportant le retour scientifique le plus dense de l'histoire des missions de ravitaillement commercial."
 pubDate: 2026-06-17
-heroImage: "https://images.unsplash.com/photo-1518364538800-6bae3c2ea0f2?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1488229297570-58520851e868?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["spacex", "dragon", "nasa", "iss", "station spatiale", "espace", "science"]
 author: "The Brief"
