@@ -2,7 +2,7 @@
 title: "Ramp lève 750 millions de dollars à 44 milliards de valorisation : la fintech IA qui triple sa valeur en un an"
 description: "La plateforme de gestion des dépenses Ramp réalise une levée de fonds Series F record à 44 milliards de dollars, misant sur la gestion des tokens IA."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=1200&auto=format&q=80"
 category: "business"
 tags: ["Ramp", "fintech", "levée de fonds", "IA", "gestion des dépenses", "licorne"]
 author: "The Brief"
