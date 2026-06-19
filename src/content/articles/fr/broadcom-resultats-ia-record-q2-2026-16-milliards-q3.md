@@ -2,7 +2,7 @@
 title: "Broadcom : l'IA explose à +143% au T2 2026, 16 milliards $ attendus au T3 — l'accélérateur secret de l'ère IA"
 description: "Broadcom publie des résultats record au T2 2026 avec 10,8 milliards $ de revenus IA (+143% YoY) et guide vers 16 milliards au T3. Hock Tan confirme l'explosion des accélérateurs custom."
 pubDate: 2026-06-19
-heroImage: "https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=1200&auto=format&q=80"
 category: "business"
 tags: ["Broadcom", "semi-conducteurs", "IA", "résultats financiers", "accélérateurs IA", "Hock Tan", "AVGO"]
 author: "The Brief"
