@@ -9,6 +9,7 @@ author: "The Brief"
 lang: "fr"
 featured: false
 readingTime: 6
+youtubeVideoId: "kkeEIbIR2kc"
 ---
 
 Six ans. C'est le temps qu'il aura fallu à Google pour lancer une nouvelle enceinte intelligente après la Nest Audio de 2020. Le 17 juin 2026, la firme de Mountain View a officialisé la **Google Home Speaker**, sa toute première enceinte audio entièrement construite autour de **Gemini**, son intelligence artificielle. Disponible en précommande et expédiée dès le **25 juin** au prix de **99,99 $**, elle marque le plus gros virage de l'écosystème maison connectée de Google depuis l'arrivée de Google Assistant.
