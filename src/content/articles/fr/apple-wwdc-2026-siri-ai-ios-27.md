@@ -2,7 +2,7 @@
 title: "Apple WWDC 2026 : Siri AI propulsé par Google Gemini, iOS 27 et le grand saut de l'IA Apple"
 description: "À la WWDC 2026, Apple a dévoilé Siri AI, une refonte majeure de son assistant vocal propulsée par des modèles Gemini de Google. Tout sur iOS 27 et macOS 27."
 pubDate: 2026-06-10
-heroImage: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1554260570-9140fd3b7614?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Apple", "WWDC 2026", "Siri AI", "iOS 27", "Apple Intelligence", "Google Gemini", "IA"]
 author: "The Brief"
