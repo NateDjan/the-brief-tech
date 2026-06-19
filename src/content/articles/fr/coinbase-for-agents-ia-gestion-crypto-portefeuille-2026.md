@@ -2,7 +2,7 @@
 title: "Coinbase for Agents : les IA peuvent désormais gérer vos cryptos en toute autonomie"
 description: "Coinbase lance un outil permettant aux agents IA comme Claude ou ChatGPT de trader des cryptomonnaies, rééquilibrer des portefeuilles et effectuer des paiements sans intervention humaine."
 pubDate: 2026-06-15
-heroImage: "https://images.unsplash.com/photo-1634704784915-aacf363b021f?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&auto=format&q=80"
 category: "crypto"
 tags: ["Coinbase", "agents IA", "crypto", "Bitcoin", "DeFi", "ChatGPT", "Claude", "finance autonome"]
 author: "The Brief"
