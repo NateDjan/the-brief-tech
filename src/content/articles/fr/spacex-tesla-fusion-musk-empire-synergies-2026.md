@@ -2,7 +2,7 @@
 title: "SpaceX-Tesla : Gwynne Shotwell ouvre la porte à la fusion, Dan Ives parle de 'Holy Grail'"
 description: "Après l'IPO de SpaceX, la présidente Gwynne Shotwell évoque des synergies avec Tesla. Wedbush fixe une probabilité de 80% pour la méga-fusion Musk."
 pubDate: 2026-06-18
-heroImage: "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&auto=format&q=80"
 category: "business"
 tags: ["SpaceX", "Tesla", "Elon Musk", "fusion", "IPO", "Gwynne Shotwell", "Wedbush"]
 author: "The Brief"
