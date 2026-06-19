@@ -2,7 +2,7 @@
 title: "Snap lance ses lunettes AR SPECS à 2 195 $ : le pari d'Evan Spiegel sur l'après-smartphone"
 description: "Snap dévoile SPECS, ses premières lunettes en réalité augmentée grand public, à 2 195 $ avec un dépôt de 200 $. L'action chute de 4 % après l'annonce."
 pubDate: 2026-06-18
-heroImage: "https://images.unsplash.com/photo-1626379953822-baec19c3accd?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Snap", "SPECS", "lunettes AR", "réalité augmentée", "Evan Spiegel", "wearables", "tech", "Snapchat"]
 author: "The Brief"
