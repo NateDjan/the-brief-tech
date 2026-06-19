@@ -2,7 +2,7 @@
 title: "Semi-conducteurs : le rebond spectaculaire du SOXX et l'entrée de Nvidia au S&P 500"
 description: "Après une chute de 10% du SOXX, les valeurs semi-conducteurs rebondissent fortement en juin 2026. L'inclusion de Nvidia au S&P 500 et les 750 Md$ capex des hyperscalers changent tout."
 pubDate: 2026-06-11
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=1200&auto=format&q=80"
 category: "business"
 tags: ["semi-conducteurs", "Nvidia", "AMD", "S&P 500", "SOXX", "investissement", "IA", "chips"]
 author: "The Brief"
