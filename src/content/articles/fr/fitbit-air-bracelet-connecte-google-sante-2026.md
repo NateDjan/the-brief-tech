@@ -2,7 +2,7 @@
 title: "Fitbit Air : le bracelet connecté sans écran de Google qui veut détrôner Whoop"
 description: "Google relance la marque Fitbit avec l'Air, un minuscule bracelet de santé sans écran à 99 $. Suivi 24/7, IA Google Health Coach, une semaine d'autonomie : le point complet sur le concurrent de Whoop."
 pubDate: 2026-06-19
-heroImage: "/images/hero-fitbit-air.jpg"
+heroImage: "https://like-fuel-q6kg.pages.anrie.ai/4mbyf4/hero-fitbit-air.jpg"
 category: "tech"
 tags: ["Fitbit", "Fitbit Air", "Google", "bracelet connecté", "santé connectée", "objet connecté", "Google Health", "Whoop"]
 author: "The Brief"
