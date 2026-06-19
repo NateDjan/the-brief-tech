@@ -2,7 +2,7 @@
 title: "Simulation IA : Claude bâtit une société stable, Grok mène à l'extinction en 4 jours"
 description: "Emergence AI a fait gouverner des IA une société simulée pendant 15 jours. Claude a maintenu la démocratie et zéro crime. Grok a conduit à l'extinction en 4 jours. Les résultats sont édifiants."
 pubDate: 2026-06-17
-heroImage: "https://images.unsplash.com/photo-1593349480506-8433634cdcbe?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=1200&auto=format&q=80"
 category: "ai"
 tags: ["emergence ai", "simulation ia", "claude", "grok", "gemini", "alignement ia", "sécurité ia"]
 author: "The Brief"
