@@ -2,7 +2,7 @@
 title: "SpaceX dépasse Amazon et frôle Microsoft : la fusée boursière d'Elon Musk atteint 2 850 milliards de dollars"
 description: "L'action SPCX bondit de 14% le 16 juin 2026, portant la capitalisation de SpaceX à 2 850 milliards de dollars, devant Amazon et brièvement devant Microsoft."
 pubDate: 2026-06-16
-heroImage: "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&q=80"
 category: "business"
 tags: ["SpaceX", "SPCX", "Elon Musk", "bourse", "Nasdaq", "capitalisation boursière", "Amazon", "Microsoft"]
 author: "The Brief"
