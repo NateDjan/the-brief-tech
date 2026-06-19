@@ -2,7 +2,7 @@
 title: "Mendo lève 12 millions d'euros pour accélérer l'adoption de l'IA en entreprise"
 description: "La startup française Mendo boucle une Série A de 12 millions d'euros menée par Ventech et Educapital pour former les collaborateurs aux outils d'IA générative directement dans leur environnement de travail."
 pubDate: 2026-06-19
-heroImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=1200&auto=format&q=80"
 category: "startups"
 tags: ["Mendo", "formation IA", "startup France", "levée de fonds", "Ventech", "Educapital", "agents IA", "adoption IA"]
 author: "The Brief"
