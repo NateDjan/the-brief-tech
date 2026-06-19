@@ -2,7 +2,7 @@
 title: "Vertiv rachète ThermoKey : comment l'IA transforme le refroidissement des datacenters"
 description: "Vertiv finalise l'acquisition de l'italien ThermoKey pour renforcer son portfolio de gestion thermique des centres de données IA haute densité. Analyse d'un marché en explosion."
 pubDate: 2026-06-14
-heroImage: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=1200&auto=format&q=80"
+heroImage: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=1200&auto=format&q=80"
 category: "tech"
 tags: ["Vertiv", "ThermoKey", "datacenter", "refroidissement IA", "infrastructure IA", "acquisition"]
 author: "The Brief"
